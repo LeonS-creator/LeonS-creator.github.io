@@ -22,7 +22,7 @@ export function BenefitsSection() {
             <HandCoins className="w-12 h-12 text-primary" />
             <h3 className="text-xl font-semibold">Effortless Rewards</h3>
             <p className="text-gray-600">
-             Scan. Collect. Enjoy. With SOLD, every visit to your favorite local shop earns you points—no cards, no hassle.
+              No cards, no apps to download. Just scan and earn points automatically.
             </p>
           </div>
           

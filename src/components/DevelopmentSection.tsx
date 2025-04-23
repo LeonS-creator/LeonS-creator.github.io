@@ -1,6 +1,5 @@
 
-import { Code } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Computer, User } from "lucide-react";
 
 export function DevelopmentSection() {
   return (
@@ -14,8 +13,9 @@ export function DevelopmentSection() {
         </p>
         <div className="max-w-md mx-auto bg-white rounded-xl p-8 shadow-lg">
           <div className="flex items-center justify-center mb-6">
-            <Code className="w-12 h-12 text-primary mr-4" />
-            <p className="text-lg font-medium text-sold-text">
+            <Computer className="w-10 h-10 text-primary mr-3" />
+            <User className="w-10 h-10 text-primary" />
+            <p className="text-lg font-medium text-sold-text ml-4">
               Hi, I'm Leon Saidavi
             </p>
           </div>

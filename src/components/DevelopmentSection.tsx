@@ -1,4 +1,5 @@
 
+import { Code } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function DevelopmentSection() {
@@ -12,9 +13,12 @@ export function DevelopmentSection() {
           We're building SOLD with love. Join our journey and help shape the future of local shopping.
         </p>
         <div className="max-w-md mx-auto bg-white rounded-xl p-8 shadow-lg">
-          <p className="text-lg font-medium mb-6 text-sold-text">
-            Hi, I'm Leon Saidavi
-          </p>
+          <div className="flex items-center justify-center mb-6">
+            <Code className="w-12 h-12 text-primary mr-4" />
+            <p className="text-lg font-medium text-sold-text">
+              Hi, I'm Leon Saidavi
+            </p>
+          </div>
           <p className="text-gray-600 mb-6">
             I started SOLD because I believe in the power of local businesses to create vibrant communities. Our mission is to make supporting local businesses rewarding for everyone.
           </p>

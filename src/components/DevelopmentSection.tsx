@@ -12,15 +12,16 @@ export function DevelopmentSection() {
           We're building SOLD with love. Join our journey and help shape the future of local shopping.
         </p>
         <div className="max-w-md mx-auto bg-white rounded-xl p-8 shadow-lg">
-
+            <div className="flex items-center justify-center mb-6">
+            <p className="text-lg font-medium text-sold-text ml-4">
+              Hi, I'm Leon Saidavi
+            </p>
+          </div>
           <p className="text-gray-600 mb-6">
             I started SOLD because I believe in the power of local businesses to create vibrant communities. Our mission is to make supporting local businesses rewarding for everyone.
           </p>
           <div className="flex items-center justify-center mb-6">
             <Computer className="w-10 h-10 text-primary mr-3" />
-            <p className="text-lg font-medium text-sold-text ml-4">
-              Hi, I'm Leon Saidavi
-            </p>
           </div>
         </div>
       </div>
